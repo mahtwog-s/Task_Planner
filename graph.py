@@ -8,7 +8,7 @@ from langgraph.graph.message import add_messages
 from langchain.schema import HumanMessage, AIMessage
 
 # LLMs
-OPENAI_API_KEY="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"
+
 suggestion_llm = ChatOpenAI(model="gpt-4o", api_key=OPENAI_API_KEY)
 decider_llm = ChatOpenAI(model="gpt-4o", api_key=OPENAI_API_KEY)
 
